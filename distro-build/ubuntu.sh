@@ -1,6 +1,7 @@
 dist_name="Ubuntu"
 dist_version="jammy"
 
+
 bootstrap_distribution() {
 	sudo rm -f "${ROOTFS_DIR}"/ubuntu-*.tar.xz
 
